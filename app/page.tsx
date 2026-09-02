@@ -105,7 +105,7 @@ export default function Home() {
           <article className="work-card work-card-tall">
             <img
               className="work-card-image"
-              src="/live-feeds-thumb.png"
+              src="/joel-anak-jinnie-portfolio/live-feeds-thumb.png"
               alt="Joel operating a broadcast camera at a live shoot"
             />
             <div className="card-index">01 / LIVE</div>
@@ -118,7 +118,7 @@ export default function Home() {
           <article className="work-card work-card-wide">
             <img
               className="work-card-image"
-              src="/own-light-thumb.png"
+              src="/joel-anak-jinnie-portfolio/own-light-thumb.png"
               alt="A broadcast crew setting up a camera outside a house"
             />
             <div className="card-index">02 / BROADCAST</div>
@@ -131,7 +131,7 @@ export default function Home() {
           <article className="work-card work-card-dark">
             <img
               className="work-card-image"
-              src="/creative-vision-thumb.png"
+              src="/joel-anak-jinnie-portfolio/creative-vision-thumb.png"
               alt="Joel setting up a cinema camera"
             />
             <div className="card-index">03 / BRAND</div>
