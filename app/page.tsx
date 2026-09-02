@@ -34,6 +34,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#work">Work</a>
+          <a href="#screening">Reels</a>
           <a href="#profile">Profile</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -144,6 +145,77 @@ export default function Home() {
             <div><b>2019 — 2023</b><span>UNIMAS<br />BA Cinematography with Honours</span></div>
           </div>
         </div>
+      </section>
+
+      <section className="screening-section" id="screening">
+        <div className="screening-intro">
+          <p className="eyebrow">The full archive</p>
+          <h2>Press play.<br /><em>Stay awhile.</em></h2>
+          <p>
+            Browse the moving work, frame archive, and latest visual notes
+            from the studio.
+          </p>
+        </div>
+
+        <div className="screening-grid">
+          <article className="drive-panel drive-panel-dark">
+            <div className="embed-heading">
+              <div>
+                <span>01 / Motion archive</span>
+                <h3>Reels &amp;<br /><em>screen work.</em></h3>
+              </div>
+              <a
+                href="https://drive.google.com/drive/folders/1hGFetkcUpyUl33-VieUwVQd4ZoSFuPuH"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open in Drive ↗
+              </a>
+            </div>
+            <iframe
+              className="drive-embed drive-embed-list"
+              title="Joel Anak Jinnie's motion archive"
+              src="https://drive.google.com/embeddedfolderview?id=1hGFetkcUpyUl33-VieUwVQd4ZoSFuPuH#list"
+              loading="lazy"
+            />
+          </article>
+
+          <article className="drive-panel">
+            <div className="embed-heading">
+              <div>
+                <span>02 / Frame archive</span>
+                <h3>Stills &amp;<br /><em>photography.</em></h3>
+              </div>
+              <a
+                href="https://drive.google.com/drive/folders/1Cru8n7sa4mfslkhoUlf-rSN-H7faG6VA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open in Drive ↗
+              </a>
+            </div>
+            <iframe
+              className="drive-embed"
+              title="Joel Anak Jinnie's photography archive"
+              src="https://drive.google.com/embeddedfolderview?id=1Cru8n7sa4mfslkhoUlf-rSN-H7faG6VA#grid"
+              loading="lazy"
+            />
+          </article>
+        </div>
+
+        <a
+          className="instagram-panel"
+          href="https://www.instagram.com/the_unxpsd/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="instagram-kicker">03 / Social reel</span>
+          <div>
+            <p>Follow the latest frames</p>
+            <h3>@the_<em>unxpsd</em></h3>
+          </div>
+          <span className="instagram-arrow" aria-hidden="true">↗</span>
+        </a>
       </section>
 
       <section className="craft-section">

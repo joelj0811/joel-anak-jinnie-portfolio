@@ -84,6 +84,32 @@ h2 { font-size: clamp(54px, 7vw, 119px); }
 .milestones b { font-size: 12px; }
 .milestones span { color: #5c5b56; font-size: 14px; line-height: 1.35; }
 
+.screening-section { background: #24201f; color: var(--warm); padding: 135px 7vw 145px; }
+.screening-intro { display: grid; grid-template-columns: .92fr 1.08fr; margin-bottom: 78px; }
+.screening-intro .eyebrow { align-self: start; }
+.screening-intro h2 { font-size: clamp(55px, 7.1vw, 114px); }
+.screening-intro > p:last-child { color: #b9b2a8; font-size: 16px; line-height: 1.55; margin: 34px 0 0; max-width: 330px; }
+.screening-grid { display: grid; gap: 18px; grid-template-columns: 1fr 1fr; }
+.drive-panel { background: #d3d1ca; color: var(--ink); min-width: 0; padding: 24px; }
+.drive-panel-dark { background: #0d0d0c; color: var(--warm); }
+.embed-heading { align-items: flex-end; display: flex; justify-content: space-between; min-height: 185px; }
+.embed-heading span, .embed-heading a, .instagram-kicker { font-size: 10px; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.embed-heading span { color: var(--orange); display: block; margin-bottom: 18px; }
+.embed-heading h3 { font-size: clamp(38px, 4.2vw, 66px); }
+.embed-heading a { align-self: start; border-bottom: 1px solid currentColor; padding-bottom: 4px; }
+.embed-heading a:hover { color: var(--orange); }
+.drive-embed { background: #f7f7f7; border: 0; display: block; height: 490px; margin-top: 30px; width: 100%; }
+.drive-embed-list { background: #fff; }
+.instagram-panel { align-items: end; background: linear-gradient(122deg, #ff4d21 0%, #d62c55 57%, #5d227b 100%); color: var(--warm); display: grid; grid-template-columns: 1fr auto; margin-top: 18px; min-height: 248px; overflow: hidden; padding: 27px; position: relative; }
+.instagram-panel::before { border: 1px solid rgba(255,255,255,.5); border-radius: 50%; content: ""; height: 590px; position: absolute; right: -175px; top: -355px; width: 590px; }
+.instagram-panel::after { border: 1px solid rgba(255,255,255,.32); border-radius: 50%; content: ""; height: 370px; position: absolute; right: -65px; top: -245px; width: 370px; }
+.instagram-panel > * { position: relative; z-index: 1; }
+.instagram-kicker { align-self: start; grid-column: 1 / -1; }
+.instagram-panel p { font-size: 13px; margin: 0 0 11px; opacity: .8; }
+.instagram-panel h3 { font-size: clamp(51px, 7vw, 104px); }
+.instagram-arrow { align-items: center; background: var(--warm); border-radius: 50%; color: var(--ink); display: grid; font-size: 31px; height: 66px; justify-content: center; width: 66px; }
+.instagram-panel:hover .instagram-arrow { background: var(--ink); color: var(--warm); }
+
 .craft-section { background: #9caeb0; padding: 120px 7vw 140px; }
 .craft-grid { border-top: 1px solid rgba(13,13,12,.45); display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 53px; }
 .craft-grid article { min-height: 365px; padding: 24px 30px 10px 0; }
@@ -123,6 +149,15 @@ footer a:hover { color: var(--orange); }
   .profile-content { padding-top: 56px; }
   .milestones { margin-top: 44px; }
   .milestones div { grid-template-columns: 1fr 1.4fr; }
+  .screening-section { padding: 90px 20px; }
+  .screening-intro { display: block; margin-bottom: 47px; }
+  .screening-intro > p:last-child { margin-top: 29px; }
+  .screening-grid { display: block; }
+  .drive-panel { margin-bottom: 14px; padding: 18px; }
+  .embed-heading { min-height: 165px; }
+  .drive-embed { height: 430px; margin-top: 23px; }
+  .instagram-panel { min-height: 220px; padding: 19px; }
+  .instagram-arrow { height: 52px; width: 52px; }
   .craft-section { padding: 90px 20px; }
   .craft-grid { display: block; }
   .craft-grid article, .craft-grid article + article { border-bottom: 1px solid rgba(13,13,12,.45); border-left: 0; min-height: 0; padding: 26px 0 38px; }
