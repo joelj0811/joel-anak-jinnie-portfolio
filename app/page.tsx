@@ -100,7 +100,7 @@ export default function Home() {
             <div className="card-index">01 / LIVE</div>
             <div className="card-copy">
               <p>Rainforest World Music Festival</p>
-              <h3>Live energy,<br /><em>in frame.</em></h3>
+              <h3>Live<br /><em>feeds.</em></h3>
               <span>2024 — 2025</span>
             </div>
           </article>
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="card-index">03 / BRAND</div>
             <div className="card-copy">
               <p>Sarawak Tourism Board · PETROS · SALCRA</p>
-              <h3>Built for<br /><em>the brief.</em></h3>
+              <h3>Creative vision<br />for <em>the big one.</em></h3>
               <span>Campaigns · Corporate · Tourism</span>
             </div>
           </article>
