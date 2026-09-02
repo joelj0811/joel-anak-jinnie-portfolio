@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Joel Anak Jinnie, a cinematographer and visual content creator based in Kuching, Malaysia.",
   metadataBase: new URL(
-    "https://tonysigan-rgb.github.io/joel-anak-jinnie-portfolio/",
+    "https://joelj0811.github.io/joel-anak-jinnie-portfolio/",
   ),
   openGraph: {
     title: "Joel Anak Jinnie — Cinematography & Visual Content",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       "Cinematic stories in motion — portfolio of Joel Anak Jinnie.",
     images: [
       {
-        url: "https://tonysigan-rgb.github.io/joel-anak-jinnie-portfolio/og.png",
+        url: "https://joelj0811.github.io/joel-anak-jinnie-portfolio/og.png",
         width: 1200,
         height: 630,
       },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Joel Anak Jinnie — Cinematography & Visual Content",
     description: "Cinematic stories in motion.",
     images: [
-      "https://tonysigan-rgb.github.io/joel-anak-jinnie-portfolio/og.png",
+      "https://joelj0811.github.io/joel-anak-jinnie-portfolio/og.png",
     ],
   },
 };
