@@ -65,7 +65,7 @@ export default function Home() {
           <div className="film-label label-top">JOEL ANAK JINNIE · 2026</div>
           <img
             className="hero-image"
-            src="/joel-portrait.jpg"
+            src="/joel-anak-jinnie-portfolio/joel-portrait.jpg"
             alt="Joel Anak Jinnie operating a camera rig"
           />
           <div className="film-label label-bottom">
