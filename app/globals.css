@@ -59,15 +59,19 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
 h2 { font-size: clamp(54px, 7vw, 119px); }
 .work-grid { display: grid; gap: 18px; grid-template-columns: 1.04fr .96fr; grid-template-rows: 386px 278px; }
 .work-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 260px; overflow: hidden; padding: 22px; position: relative; }
-.work-card::before { content: ""; inset: 0; position: absolute; transition: transform .55s cubic-bezier(.2,.8,.2,1); }
+.work-card::before { content: ""; inset: 0; position: absolute; transition: transform .55s cubic-bezier(.2,.8,.2,1); z-index: 1; }
 .work-card:hover::before { transform: scale(1.04); }
-.work-card > * { position: relative; z-index: 1; }
+.work-card > * { position: relative; z-index: 2; }
+.work-card > .work-card-image { height: 100%; inset: 0; object-fit: cover; position: absolute; width: 100%; z-index: 0; }
 .work-card-tall { background: #bf392a; color: var(--warm); grid-row: span 2; }
-.work-card-tall::before { background: radial-gradient(circle at 80% 18%, #ff8a3d 0 1%, transparent 1.4%), linear-gradient(130deg, rgba(24,16,18,.3), transparent 50%), repeating-linear-gradient(120deg, transparent 0 17px, rgba(255,255,255,.07) 18px 20px); }
+.work-card-tall::before { background: linear-gradient(180deg, rgba(5,24,25,.06), rgba(5,13,16,.68)), linear-gradient(130deg, rgba(24,16,18,.18), transparent 50%); }
 .work-card-wide { background: #c6d2c6; }
-.work-card-wide::before { background: linear-gradient(115deg, rgba(255,255,255,.65), transparent 60%), repeating-linear-gradient(90deg, transparent 0 50px, rgba(13,13,12,.06) 51px 52px); }
+.work-card-wide::before { background: linear-gradient(105deg, rgba(239,243,237,.88), rgba(239,243,237,.43)); }
 .work-card-dark { background: #202427; color: var(--warm); }
-.work-card-dark::before { background: radial-gradient(circle at 80% 14%, #798a8d 0 1%, transparent 1.5%), linear-gradient(130deg, transparent, rgba(255,255,255,.12)); }
+.work-card-dark::before { background: linear-gradient(100deg, rgba(10,13,14,.38), rgba(10,13,14,.76)), linear-gradient(130deg, transparent, rgba(255,255,255,.1)); }
+.work-card-tall .work-card-image { object-position: 48% center; }
+.work-card-wide .work-card-image { object-position: 50% 66%; }
+.work-card-dark .work-card-image { object-position: right 48%; }
 .card-index { align-self: flex-start; border: 1px solid currentColor; border-radius: 99px; padding: 6px 9px; }
 .card-copy p { font-size: 13px; margin: 0 0 12px; opacity: .75; }
 .card-copy h3 { font-size: clamp(38px, 4.7vw, 76px); }
