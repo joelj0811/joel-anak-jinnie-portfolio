@@ -20,9 +20,15 @@ const equipment = [
   "Sony FX6",
   "Sony FX3",
   "Sony A7IV",
+  "Sony A7III",
+  "Sony A7II",
   "Sony FX30",
+  "Sony FS5 II",
+  "Sony A6500",
+  "Sony ZV-E10 II",
   "Blackmagic Pyxis 6K",
   "Blackmagic Pocket Cinema Camera 6K",
+  "Blackmagic URSA Broadcast G2",
 ];
 
 export default function Home() {
@@ -47,13 +53,13 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Cinematography · Visual content · Kuching, MY</p>
           <h1>
-            Stories
+            My
             <br />
-            <em>in motion.</em>
+            <em>Portfolio</em>
           </h1>
           <p className="hero-intro">
-            Joel Anak Jinnie is a cinematographer and visual content creator
-            drawn to the unrepeatable energy of a live moment.
+            I&apos;m a videographer and visual content creator, drawn to capturing
+            moments for people.
           </p>
           <a className="round-link" href="#work">
             <span>Explore selected work</span>
@@ -92,7 +98,7 @@ export default function Home() {
       <section className="work-section" id="work">
         <div className="section-heading">
           <p className="eyebrow">Selected practice</p>
-          <h2>Made for the moment,<br />built to stay with you.</h2>
+          <h2>My<br /><em>Experiences</em></h2>
         </div>
 
         <div className="work-grid">
@@ -130,14 +136,14 @@ export default function Home() {
         </div>
         <div className="profile-content">
           <p className="profile-lead">
-            From run-and-gun event coverage to narrative production, Joel
-            makes the technical disappear so the human story can arrive intact.
+            From run-and-gun event coverage to narrative production, I make
+            the technical disappear so the human story can arrive intact.
           </p>
           <p>
-            He has worked across multi-camera live events, commercial product
+            I have worked across multi-camera live events, commercial product
             photography, corporate documentaries and short-form social content.
-            Every project is approached end-to-end — from visual preparation
-            and camera builds through to the final, polished edit.
+            I approach every project end-to-end — from visual preparation and
+            camera builds through to the final, polished edit.
           </p>
           <div className="milestones">
             <div><b>2024 — now</b><span>Lightcube Studio<br />Videographer / Production crew</span></div>
